@@ -1,0 +1,1 @@
+BASELINE StickerSelectionBox world (-2.4838, 0.2706, -98.0302) for blossom at shirt front uv(0.35,0.60)

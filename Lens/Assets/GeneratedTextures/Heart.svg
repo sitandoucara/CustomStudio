@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 432" width="480" height="432">
+  <!-- Pass 40: a SOLID heart in the flowers' treatment — one flat fill, a hairline outline,
+       and NOTHING inside the outline: no highlight, no hole. Drawn tight to its bounds so the
+       PNG needs only its alpha trim: the lobes reach y 4, the point y 428, the sides x 4..476. -->
+  <path d="M240 428
+           C 200 396, 90 318, 40 236
+           C 4 178, 4 96, 60 44
+           C 108 -1, 190 4, 240 78
+           C 290 4, 372 -1, 420 44
+           C 476 96, 476 178, 440 236
+           C 390 318, 280 396, 240 428 Z"
+        fill="#e8394f" stroke="#b8203a" stroke-width="6" stroke-linejoin="round"/>
+</svg>

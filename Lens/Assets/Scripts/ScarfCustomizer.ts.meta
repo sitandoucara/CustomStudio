@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/bcc85406-bdc2-48c4-bfc6-cf9b8550dbd2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e6d90b9a-78a9-4cde-9221-887d079898a7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e6d90b9a-78a9-4cde-9221-887d079898a7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ccaaf061-f30a-43e2-8e7d-1839510fedef
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ccaaf061-f30a-43e2-8e7d-1839510fedef>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  ComponentUid: 069fc696-83fa-4961-a8bd-e8e7ddd6d789
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugColliders: false
+    stickerTray: false
+    uiHud: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - debugColliders: false
+      uiHud: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      stickerTray: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input bool debugColliders
+    - // @input AssignableType_1 uiHud
+    - // @input AssignableType_2 stickerTray

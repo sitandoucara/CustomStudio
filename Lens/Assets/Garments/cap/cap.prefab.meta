@@ -1,0 +1,482 @@
+- !<AssetImportMetadata/d964d170-7716-479b-91b7-59e400201f4d>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8371819b-ad71-4487-bcb1-e82d584ca4d8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8371819b-ad71-4487-bcb1-e82d584ca4d8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 8bd5c373-cffd-46f9-bde3-0f79126ce094
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/02d29440-c299-469f-753e-2aa605a02cb6>
+  PrefabRemaps:
+    []
+  Name: Label_Baseball_Cap_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2402dc30-0c3a-4607-597c-3cd694e3efde
+- !<SceneObject/143d2f4c-6bc2-47e8-644c-b0368351edaf>
+  PrefabRemaps:
+    []
+  Name: Brim2_Mat_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e13063e1-eebb-4b70-7151-18b000a4766f
+- !<SceneObject/19747f0d-c9da-450f-75bc-09d9a115d246>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> bedfdaca-c93e-4f8b-5f25-c8405ad437f7
+  Components:
+    []
+- !<SceneObject/216dd9b5-2e4a-4b51-7fe6-6969ffe99ca7>
+  PrefabRemaps:
+    []
+  Name: eyelets2_Baseball_Cap_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 53899303-b783-428f-5266-5c7fb7170df5
+- !<RenderMeshVisual/2402dc30-0c3a-4607-597c-3cd694e3efde>
+  PrefabRemaps:
+    []
+  Name: Label_Baseball_Cap_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de0315a5-750b-43b4-952a-6b4cda99da42
+  Mesh: !<reference> e38bf1d5-15a3-4d4c-817d-b6ec840405b1
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/24e0228d-ee7b-4318-5fae-ca911ce161b9>
+  PrefabRemaps:
+    []
+  Name: Brim2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 143d2f4c-6bc2-47e8-644c-b0368351edaf
+  Components:
+    []
+- !<SceneObject/2f09ee03-c7cf-4997-46de-7a631c53a6b2>
+  PrefabRemaps:
+    []
+  Name: button1_Baseball_Cap_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b79ea84d-5682-47da-42df-ed003310a53c
+- !<SceneObject/3314a002-29fa-460e-6e21-cdbde3990d30>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3c31c65a-6df3-45cb-68fa-37b9c93a920b
+  Components:
+    []
+- !<SceneObject/3c31c65a-6df3-45cb-68fa-37b9c93a920b>
+  PrefabRemaps:
+    []
+  Name: Baseball cap.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a260472e-b9c3-44bd-695b-af1c1e80db80
+  Components:
+    []
+- !<RenderMeshVisual/53899303-b783-428f-5266-5c7fb7170df5>
+  PrefabRemaps:
+    []
+  Name: eyelets2_Baseball_Cap_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de0315a5-750b-43b4-952a-6b4cda99da42
+  Mesh: !<reference> d1d685a2-2c59-4701-951d-b2abc5023c3e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/56f81b0a-d1a0-4047-4005-051b47a6d16b>
+  PrefabRemaps:
+    []
+  Name: Cap_Band_Baseball_Cap_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f2f9692c-c0e0-4113-6580-056c1149ad07
+- !<SceneObject/6be171d3-66b6-47b8-791f-69a20a2430ba>
+  PrefabRemaps:
+    []
+  Name: Brim_under
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8b6150b9-ed60-42f5-7920-f3c921d69f6a
+  Components:
+    []
+- !<SceneObject/823def9f-4d90-415c-7d28-aded43068da3>
+  PrefabRemaps:
+    []
+  Name: Cap_Band
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56f81b0a-d1a0-4047-4005-051b47a6d16b
+  Components:
+    []
+- !<SceneObject/879048aa-0e8f-4fdc-69da-44244891c32b>
+  PrefabRemaps:
+    []
+  Name: eyelets2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 216dd9b5-2e4a-4b51-7fe6-6969ffe99ca7
+  Components:
+    []
+- !<SceneObject/8b6150b9-ed60-42f5-7920-f3c921d69f6a>
+  PrefabRemaps:
+    []
+  Name: Brim_under_Baseball_Cap_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d694b94a-c603-43bd-44f6-27c3107c21b6
+- !<ObjectPrefabAssetData/8bd5c373-cffd-46f9-bde3-0f79126ce094>
+  Prototype: !<ObjectOwner/546b4303-5066-44b5-be6c-b5391b1c07c7>
+    PackagePath: ""
+    objects:
+      - !<own> b1efb401-6e2b-479b-5c5a-8ecb4ac0eedc
+- !<SceneObject/8c9e7cfc-bec8-4110-57f5-f333b20b037e>
+  PrefabRemaps:
+    []
+  Name: Cap2_Mat_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 92690b9f-6f4a-4811-7128-486c2f468f0a
+- !<RenderMeshVisual/92690b9f-6f4a-4811-7128-486c2f468f0a>
+  PrefabRemaps:
+    []
+  Name: Cap2_Mat_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c8dc047c-a330-400d-8cc8-9401768c1dcd
+  Mesh: !<reference> a1e744ba-d208-4655-8576-827871da1b6b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/94ab2598-12ec-4ab5-4495-33647b0fad2c>
+  PrefabRemaps:
+    []
+  Name: Label
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 02d29440-c299-469f-753e-2aa605a02cb6
+  Components:
+    []
+- !<SceneObject/a1f3be7e-f71d-4d49-694d-c6f5ff7c2be2>
+  PrefabRemaps:
+    []
+  Name: Cap2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8c9e7cfc-bec8-4110-57f5-f333b20b037e
+  Components:
+    []
+- !<SceneObject/a260472e-b9c3-44bd-695b-af1c1e80db80>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> fb80adb0-9787-422a-5b09-93b85ff69bea
+  Components:
+    []
+- !<SceneObject/b1efb401-6e2b-479b-5c5a-8ecb4ac0eedc>
+  PrefabRemaps:
+    []
+  Name: baseball_cap_01_package
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 19747f0d-c9da-450f-75bc-09d9a115d246
+  Components:
+    []
+- !<RenderMeshVisual/b79ea84d-5682-47da-42df-ed003310a53c>
+  PrefabRemaps:
+    []
+  Name: button1_Baseball_Cap_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de0315a5-750b-43b4-952a-6b4cda99da42
+  Mesh: !<reference> e124bd4a-8502-40e8-b141-c5601bb08417
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/bedfdaca-c93e-4f8b-5f25-c8405ad437f7>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3314a002-29fa-460e-6e21-cdbde3990d30
+  Components:
+    []
+- !<SceneObject/ca261c12-7160-45c2-484f-4dc57a0ac809>
+  PrefabRemaps:
+    []
+  Name: button1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2f09ee03-c7cf-4997-46de-7a631c53a6b2
+  Components:
+    []
+- !<RenderMeshVisual/d694b94a-c603-43bd-44f6-27c3107c21b6>
+  PrefabRemaps:
+    []
+  Name: Brim_under_Baseball_Cap_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de0315a5-750b-43b4-952a-6b4cda99da42
+  Mesh: !<reference> c66c05d3-7ba5-4ca4-b5a2-1f61c3d6174d
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/e13063e1-eebb-4b70-7151-18b000a4766f>
+  PrefabRemaps:
+    []
+  Name: Brim2_Mat_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c8dc047c-a330-400d-8cc8-9401768c1dcd
+  Mesh: !<reference> c1f16766-92c9-4dbd-8d60-9cb5356a174e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f2f9692c-c0e0-4113-6580-056c1149ad07>
+  PrefabRemaps:
+    []
+  Name: Cap_Band_Baseball_Cap_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> de0315a5-750b-43b4-952a-6b4cda99da42
+  Mesh: !<reference> 20d6698a-1d51-4c08-8a23-99ad6c075bf9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fb80adb0-9787-422a-5b09-93b85ff69bea>
+  PrefabRemaps:
+    []
+  Name: Baseball_cap_
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a1f3be7e-f71d-4d49-694d-c6f5ff7c2be2
+    - !<own> ca261c12-7160-45c2-484f-4dc57a0ac809
+    - !<own> 879048aa-0e8f-4fdc-69da-44244891c32b
+    - !<own> 823def9f-4d90-415c-7d28-aded43068da3
+    - !<own> 94ab2598-12ec-4ab5-4495-33647b0fad2c
+    - !<own> 24e0228d-ee7b-4318-5fae-ca911ce161b9
+    - !<own> 6be171d3-66b6-47b8-791f-69a20a2430ba
+  Components:
+    []

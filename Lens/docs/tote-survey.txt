@@ -1,0 +1,23 @@
+====================================================================================================
+ATLAS SURVEY — tote   1 mesh(es), 4749 verts, 9216 tris
+bbox (-1.049, 0.023, -0.038) .. (1.049, 2.396, 0.169)   span 2.098 x 2.373 x 0.207   normalised on y -> 18.4 cm (7.7533 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  Object_12                  9216  0.011-0.994  0.003-0.991  (-0.000,-0.038, 0.999)  96.83%  front, mid (z0.58)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     16.72      19.72      -2.21    15.68 x  17.61       2.24           YES
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 96.7% of the square (1014108 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 1.049  (a mirrored pair would span ~2.1)
+  island  0  Object_12                 max mesh-X span under one texel:   0.000
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+VERDICT: NO OVERLAP. No texel is claimed by two islands.

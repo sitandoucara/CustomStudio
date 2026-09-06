@@ -1,0 +1,209 @@
+- !<ObjectPrefab/379032c7-c5b4-4c0b-8885-668597d6c891>
+  PackagePath: ""
+  objects:
+    - !<own> 7ed9e739-26a0-4f83-bcd0-ea36ea98fa26
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/04135e25-2cca-4f89-8855-231011b830a0>
+  PrefabRemaps:
+    []
+  Name: sock-right-b_medias.001_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 93a3f3d5-b432-49f2-8f8f-74f6069453fc
+  Mesh: !<reference> 34369e06-bd9b-4796-8919-3c68219ac718
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/0f522fa7-3ab8-48f2-834d-363216a8ac64>
+  PrefabRemaps:
+    []
+  Name: sock-right-b
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.394841, y: 57.169460, z: -1.008038}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2748.479736, y: 2748.479736, z: 2748.479736}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ee246606-547a-40c1-9825-2d3f94e5ef38
+  Components:
+    []
+- !<SceneObject/352a5c00-94db-46b6-86f9-81751fdb8c5c>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4db1bcd6-ced1-4dcb-8fbb-b9731e1c1515
+  Components:
+    []
+- !<SceneObject/4aa12955-88fe-412d-8c59-510308e8444f>
+  PrefabRemaps:
+    []
+  Name: sock-left-b
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.394841, y: 57.169460, z: -1.008038}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2748.479736, y: 2748.479736, z: 2748.479736}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9f2b1b8a-2fc1-43fe-824d-4e22309c32a9
+  Components:
+    []
+- !<SceneObject/4db1bcd6-ced1-4dcb-8fbb-b9731e1c1515>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6fcd88ff-9647-4182-803c-a005c4c6c1c7
+  Components:
+    []
+- !<SceneObject/6fcd88ff-9647-4182-803c-a005c4c6c1c7>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c8a7b559-6b44-44a2-b2c6-52cac382d27a
+  Components:
+    []
+- !<SceneObject/7ed9e739-26a0-4f83-bcd0-ea36ea98fa26>
+  PrefabRemaps:
+    - 04135e25-2cca-4f89-8855-231011b830a0: 04135e25-2cca-4f89-77aa-dcefee47cf5f
+    - 0f522fa7-3ab8-48f2-834d-363216a8ac64: 0f522fa7-3ab8-48f2-7cb2-c9cde957539b
+    - 352a5c00-94db-46b6-86f9-81751fdb8c5c: 352a5c00-94db-46b6-7906-7e8ae02473a3
+    - 4aa12955-88fe-412d-8c59-510308e8444f: 4aa12955-88fe-412d-73a6-aefcf717bbb0
+    - 4db1bcd6-ced1-4dcb-8fbb-b9731e1c1515: 4db1bcd6-ced1-4dcb-7044-468ce1e3eaea
+    - 6fcd88ff-9647-4182-803c-a005c4c6c1c7: 6fcd88ff-9647-4182-7fc3-5ffa3b393e38
+    - 7ed9e739-26a0-4f83-bcd0-ea36ea98fa26: 7ed9e739-26a0-4f83-432f-15c9156705d9
+    - 9f2b1b8a-2fc1-43fe-824d-4e22309c32a9: 9f2b1b8a-2fc1-43fe-7db2-b1ddcf63cd56
+    - b0e1b3c1-a371-442c-93af-ae2ca9939e29: b0e1b3c1-a371-442c-6c50-51d3566c61d6
+    - c8a7b559-6b44-44a2-b2c6-52cac382d27a: c8a7b559-6b44-44a2-4d39-ad353c7d2d85
+    - cf34f04f-7025-4479-b589-3a9c8d34b89d: cf34f04f-7025-4479-4a76-c56372cb4762
+    - ee246606-547a-40c1-9825-2d3f94e5ef38: ee246606-547a-40c1-67da-d2c06b1a10c7
+  Name: socks
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 352a5c00-94db-46b6-86f9-81751fdb8c5c
+  Components:
+    []
+- !<SceneObject/9f2b1b8a-2fc1-43fe-824d-4e22309c32a9>
+  PrefabRemaps:
+    []
+  Name: sock-left-b_medias_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b0e1b3c1-a371-442c-93af-ae2ca9939e29
+- !<RenderMeshVisual/b0e1b3c1-a371-442c-93af-ae2ca9939e29>
+  PrefabRemaps:
+    []
+  Name: sock-left-b_medias_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> eca30925-cb59-4b23-b20e-9260678cf5ba
+  Mesh: !<reference> e0c30338-5b11-4285-a2ac-143fc5c60609
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c8a7b559-6b44-44a2-b2c6-52cac382d27a>
+  PrefabRemaps:
+    []
+  Name: Socks.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> cf34f04f-7025-4479-b589-3a9c8d34b89d
+  Components:
+    []
+- !<SceneObject/cf34f04f-7025-4479-b589-3a9c8d34b89d>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4aa12955-88fe-412d-8c59-510308e8444f
+    - !<own> 0f522fa7-3ab8-48f2-834d-363216a8ac64
+  Components:
+    []
+- !<SceneObject/ee246606-547a-40c1-9825-2d3f94e5ef38>
+  PrefabRemaps:
+    []
+  Name: sock-right-b_medias.001_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 04135e25-2cca-4f89-8855-231011b830a0

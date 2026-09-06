@@ -1,0 +1,38 @@
+# Shipped by Lens Studio
+
+# The lines below are automatically generated and updated by Lens Studio.
+# Please do not modify them manually, as changes will be overwritten each time!
+# If you want to make changes to this file, please put them either above or below this section.
+
+Cache/**
+PluginsUserPreferences/**
+Support/**
+BackUp/**
+Workspaces/**
+.vscode/**
+/jsconfig.json
+/tsconfig.json
+.DS_Store
+/spk_debug_key.pem
+*.lock
+
+# Shipped by Lens Studio
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Pass 14 — Supabase credentials. The example file is committed; this one is not.
+Assets/Scripts/SupabaseConfig.ts
+Assets/Scripts/SupabaseConfig.ts.meta
+
+# Pass 18 — local type-check tooling (npm install --no-save typescript)
+node_modules/
+
+# Pass 49 — Lens Studio's generated cache. Regenerated on every compile, and it holds a
+# COMPILED COPY of SupabaseConfig.ts: leaving it untracked is what keeps the emptied
+# config from being undone by a stale build in the repo.
+Cache/

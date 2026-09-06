@@ -1,0 +1,239 @@
+====================================================================================================
+ATLAS SURVEY — hoodie   1 mesh(es), 15934 verts, 26628 tris
+bbox (-1.287, -0.611, -0.66) .. (1.284, 3.282, 0.63)   span 2.570 x 3.892 x 1.289   normalised on y -> 30.0 cm (7.7074 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  a pose hoodie_Material_0   4458  0.290-0.573  0.397-1.000  ( 0.467, 0.161, 0.870)   9.62%  front, mid (z0.78)
+  1  a pose hoodie_Material_0   3788  -0.000-0.290  0.396-1.000  (-0.514,-0.028,-0.857)   9.15%  rear, mid (z0.18)
+  2  a pose hoodie_Material_0   3730  0.785-0.989  0.396-1.000  (-0.850, 0.097, 0.518)   8.12%  front, mid (z0.67)
+  3  a pose hoodie_Material_0   3662  0.573-0.785  0.366-1.000  ( 0.851, 0.039,-0.523)   8.64%  rear, mid (z0.32)
+  4  a pose hoodie_Material_0   1030  -0.000-0.173  0.193-0.396  (-0.924, 0.056, 0.379)   1.94%  left, high (z0.40)
+  5  a pose hoodie_Material_0    792  0.573-0.696  0.181-0.366  ( 0.982,-0.016,-0.188)   1.22%  right, high (z0.64)
+  6  a pose hoodie_Material_0    788  0.468-0.545  0.061-0.397  ( 0.581, 0.094, 0.808)   1.66%  front, mid (z0.65)
+  7  a pose hoodie_Material_0    722  0.785-0.859  0.072-0.396  (-0.831,-0.014, 0.556)   1.44%  front, low (z0.65)
+  8  a pose hoodie_Material_0    554  0.173-0.234  0.053-0.396  (-0.592,-0.367,-0.717)   1.33%  rear, low (z0.40)
+  9  a pose hoodie_Material_0    530  0.859-0.925  0.069-0.396  ( 0.781,-0.330,-0.531)   1.25%  rear, low (z0.44)
+ 10  a pose hoodie_Material_0    504  0.667-0.774  0.031-0.181  ( 0.755, 0.092, 0.650)   1.25%  front, high (z0.23)
+ 11  a pose hoodie_Material_0    488  0.000-0.100  0.004-0.193  (-0.152, 0.988,-0.020)   1.37%  top / crown cap
+ 12  a pose hoodie_Material_0    454  0.234-0.283  0.074-0.396  ( 0.415, 0.022,-0.909)   1.31%  rear, mid (z0.06)
+ 13  a pose hoodie_Material_0    430  0.573-0.667  0.000-0.181  ( 0.018,-1.000, 0.009)   1.24%  underside
+ 14  a pose hoodie_Material_0    330  0.925-0.957  0.041-0.222  ( 0.396,-0.351, 0.849)   0.43%  front, low (z0.22)
+ 15  a pose hoodie_Material_0    294  0.290-0.380  0.052-0.169  (-0.284, 0.955, 0.090)   0.28%  top / crown cap
+ 16  a pose hoodie_Material_0    294  0.925-0.965  0.222-0.396  (-0.329,-0.506,-0.797)   0.39%  rear, low (z0.84)
+ 17  a pose hoodie_Material_0    280  0.696-0.784  0.230-0.366  (-0.486, 0.847,-0.215)   0.75%  top / crown cap
+ 18  a pose hoodie_Material_0    254  0.290-0.468  0.169-0.397  (-0.021,-0.989, 0.143)   0.17%  underside
+ 19  a pose hoodie_Material_0    240  0.420-0.452  0.038-0.169  ( 0.724,-0.422,-0.546)   0.31%  rear, low (z0.73)
+ 20  a pose hoodie_Material_0    226  0.965-0.994  0.165-0.396  (-0.065,-0.176,-0.982)   0.39%  rear, mid (z0.12)
+ 21  a pose hoodie_Material_0    216  0.380-0.420  0.043-0.169  (-0.858,-0.293, 0.423)   0.37%  left, low (z0.37)
+ 22  a pose hoodie_Material_0    176  0.100-0.161  0.009-0.083  ( 0.416, 0.887,-0.202)   0.33%  top / crown cap
+ 23  a pose hoodie_Material_0    170  0.100-0.158  0.083-0.193  (-0.828,-0.486,-0.279)   0.24%  left, high (z0.76)
+ 24  a pose hoodie_Material_0    160  0.820-0.851  0.022-0.072  ( 0.927,-0.171,-0.333)   0.13%  right, low (z0.83)
+ 25  a pose hoodie_Material_0    154  0.696-0.732  0.184-0.230  (-0.902,-0.080, 0.424)   0.13%  left, low (z0.75)
+ 26  a pose hoodie_Material_0    150  0.452-0.464  0.028-0.169  ( 0.800, 0.204, 0.565)   0.06%  front, high (z0.80)
+ 27  a pose hoodie_Material_0    136  0.200-0.223  0.020-0.053  (-0.169,-0.897, 0.408)   0.06%  underside
+ 28  a pose hoodie_Material_0    134  0.173-0.200  0.018-0.053  (-0.089,-0.953, 0.290)   0.07%  underside
+ 29  a pose hoodie_Material_0    130  0.234-0.290  0.011-0.074  (-0.886, 0.248,-0.391)   0.22%  left, high (z0.60)
+ 30  a pose hoodie_Material_0    128  0.732-0.770  0.192-0.230  (-0.938, 0.015, 0.347)   0.12%  left, low (z0.76)
+ 31  a pose hoodie_Material_0    118  0.885-0.917  0.033-0.069  ( 0.907,-0.261,-0.331)   0.10%  right, low (z0.83)
+ 32  a pose hoodie_Material_0    118  0.545-0.570  0.240-0.397  (-0.996, 0.083,-0.022)   0.26%  left, mid (z0.11)
+ 33  a pose hoodie_Material_0    114  0.859-0.885  0.018-0.069  ( 0.748, 0.129, 0.651)   0.09%  front, low (z0.72)
+ 34  a pose hoodie_Material_0    112  0.468-0.497  0.022-0.061  ( 0.672, 0.044, 0.739)   0.08%  front, low (z0.72)
+ 35  a pose hoodie_Material_0    106  0.497-0.521  0.015-0.061  (-0.680,-0.379,-0.628)   0.09%  rear, low (z0.86)
+ 36  a pose hoodie_Material_0    100  0.545-0.563  0.091-0.240  ( 0.240,-0.182,-0.954)   0.18%  rear, mid (z0.15)
+ 37  a pose hoodie_Material_0     92  0.521-0.543  0.024-0.061  (-0.671,-0.339,-0.660)   0.07%  rear, low (z0.87)
+ 38  a pose hoodie_Material_0     56  0.965-0.982  0.002-0.076  ( 0.952, 0.153, 0.266)   0.07%  right, low (z0.30)
+ 39  a pose hoodie_Material_0     50  0.785-0.820  0.020-0.072  ( 0.122,-0.964, 0.238)   0.02%  underside
+ 40  a pose hoodie_Material_0     42  0.965-0.985  0.076-0.165  (-0.865, 0.343,-0.367)   0.09%  left, mid (z0.66)
+ 41  a pose hoodie_Material_0     40  0.545-0.565  0.012-0.091  (-0.831, 0.496,-0.253)   0.09%  left, low (z0.30)
+ 42  a pose hoodie_Material_0     36  0.283-0.288  0.349-0.373  (-0.301,-0.815, 0.496)   0.01%  underside
+ 43  a pose hoodie_Material_0     24  0.985-0.997  0.099-0.165  ( 0.006,-0.607, 0.794)   0.05%  front, low (z0.19)
+ 44  a pose hoodie_Material_0     24  0.283-0.290  0.332-0.349  ( 0.354,-0.820, 0.450)   0.01%  underside
+ 45  a pose hoodie_Material_0     24  0.982-0.995  0.010-0.076  ( 0.189,-0.982, 0.022)   0.02%  underside
+ 46  a pose hoodie_Material_0     22  0.774-0.784  0.135-0.181  (-0.009,-0.589, 0.808)   0.04%  front, low (z0.18)
+ 47  a pose hoodie_Material_0     22  0.158-0.170  0.102-0.193  (-0.115,-0.069, 0.991)   0.06%  front, low (z0.89)
+ 48  a pose hoodie_Material_0     22  0.290-0.310  0.016-0.052  ( 0.089,-0.986,-0.144)   0.01%  underside
+ 49  a pose hoodie_Material_0     14  0.770-0.784  0.189-0.230  (-0.761, 0.628,-0.163)   0.04%  left, low (z0.48)
+ 50  a pose hoodie_Material_0     12  0.563-0.573  0.208-0.240  (-0.130, 0.759, 0.638)   0.02%  front, mid (z0.60)
+ 51  a pose hoodie_Material_0     12  0.310-0.325  0.022-0.052  (-0.170, 0.586, 0.793)   0.02%  front, mid (z0.59)
+ 52  a pose hoodie_Material_0     10  0.283-0.286  0.301-0.332  (-0.103,-0.645, 0.757)   0.01%  front, high (z0.95)
+ 53  a pose hoodie_Material_0      6  0.283-0.289  0.373-0.396  ( 0.684,-0.719,-0.124)   0.01%  right, low (z0.69)
+ 54  a pose hoodie_Material_0      6  0.286-0.289  0.287-0.301  (-0.251,-0.686, 0.683)   0.00%  front, low (z0.72)
+ 55  a pose hoodie_Material_0      4  0.286-0.289  0.313-0.323  (-0.133,-0.931,-0.341)   0.00%  underside
+ 56  a pose hoodie_Material_0      4  0.283-0.287  0.253-0.263  ( 0.416,-0.667, 0.619)   0.00%  front, mid (z0.61)
+ 57  a pose hoodie_Material_0      4  0.564-0.573  0.197-0.208  (-0.218, 0.688, 0.692)   0.01%  front, mid (z0.61)
+ 58  a pose hoodie_Material_0      4  0.283-0.288  0.286-0.296  ( 0.150,-0.772,-0.618)   0.00%  rear, low (z0.70)
+ 59  a pose hoodie_Material_0      2  0.283-0.287  0.232-0.238  (-0.183, 0.548, 0.816)   0.00%  front, mid (z0.55)
+ 60  a pose hoodie_Material_0      2  0.571-0.573  0.382-0.389  (-0.961,-0.222,-0.167)   0.00%  left, mid (z0.37)
+ 61  a pose hoodie_Material_0      2  0.571-0.573  0.366-0.369  (-0.056,-0.883, 0.466)   0.00%  underside
+ 62  a pose hoodie_Material_0      2  0.571-0.573  0.374-0.382  ( 0.944,-0.294, 0.151)   0.00%  right, mid (z0.61)
+ 63  a pose hoodie_Material_0      2  0.283-0.288  0.274-0.286  (-0.172,-0.027, 0.985)   0.00%  front, mid (z0.92)
+ 64  a pose hoodie_Material_0      2  0.286-0.289  0.304-0.307  (-0.907, 0.337,-0.253)   0.00%  left, mid (z0.73)
+ 65  a pose hoodie_Material_0      2  0.283-0.287  0.263-0.274  (-0.241, 0.695, 0.677)   0.00%  front, high (z0.20)
+ 66  a pose hoodie_Material_0      2  0.283-0.287  0.244-0.253  (-0.172, 0.651, 0.739)   0.00%  front, mid (z0.56)
+ 67  a pose hoodie_Material_0      2  0.283-0.288  0.238-0.244  (-0.898, 0.376,-0.228)   0.00%  left, mid (z0.79)
+ 68  a pose hoodie_Material_0      2  0.571-0.573  0.369-0.374  (-0.243,-0.628, 0.740)   0.00%  front, mid (z0.61)
+ 69  a pose hoodie_Material_0      2  0.288-0.290  0.368-0.373  (-0.353,-0.873, 0.337)   0.00%  underside
+ 70  a pose hoodie_Material_0      2  0.286-0.290  0.323-0.332  ( 0.127, 0.280,-0.951)   0.00%  rear, mid (z0.21)
+ 71  a pose hoodie_Material_0      2  0.286-0.290  0.307-0.313  ( 0.632, 0.760, 0.151)   0.00%  right, high (z0.52)
+ 72  a pose hoodie_Material_0      2  0.571-0.573  0.389-0.397  ( 0.981,-0.158, 0.111)   0.00%  right, mid (z0.60)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     49.78      47.58    +174.58     5.31 x  16.96       0.61           YES
+  1     47.43      48.37    -175.64     1.93 x  18.27       0.22           no
+  2     46.82      49.37    -177.86     1.90 x  17.83       0.22           no
+  3     47.42      47.47    +170.77     4.13 x   7.45       0.48           YES
+  4     48.39      47.66    +166.73     3.99 x   5.56       0.46           YES
+  5     54.29      49.58    -170.73     2.97 x   6.89       0.34           no
+  6     47.60      48.11    +162.34     1.88 x   4.60       0.22           no
+  7     47.72      48.60    -164.28     0.96 x   7.24       0.11           no
+  8     49.49      48.96    +176.25     1.57 x   7.20       0.18           no
+  9     48.71      50.13    +176.89     2.02 x   4.75       0.23           no
+ 10     53.04      47.75    -175.71     2.96 x   6.08       0.34           no
+ 11     46.67      48.35    +110.24     5.47 x   2.92       0.34           no
+ 12     42.96      47.57    +178.69     2.08 x  11.18       0.24           no
+ 13     48.05      48.06    -125.30     4.08 x   2.64       0.30           no
+ 14     55.10      52.61     -97.17     5.55 x   0.61       0.07           no
+ 15     48.70      42.72    +130.10     1.48 x   0.63       0.07           no
+ 16     49.90      50.27     -98.94     5.69 x   0.78       0.09           no
+ 17     47.93      48.43    -163.93     2.86 x   3.81       0.33           no
+ 18     48.88      47.67     -97.78     1.45 x   0.19       0.02           no
+ 19     53.18      47.42     +89.70     4.52 x   0.85       0.10           no
+ 20     50.27      47.69    -176.34     0.72 x   6.79       0.08           no
+ 21     47.61      49.23     +90.96     4.15 x   1.42       0.16           no
+ 22     63.35      47.32    -100.91     2.07 x   2.86       0.24           no
+ 23     50.49      63.28     -76.59     1.87 x   1.19       0.14           no
+ 24     51.21      48.57    +161.27     0.91 x   1.53       0.11           no
+ 25     48.04      47.32    -162.01     0.94 x   1.75       0.11           no
+ 26     62.45      47.92    -164.38     0.21 x   0.83       0.02           no
+ 27     48.19      50.84    +164.48     0.79 x   1.09       0.09           no
+ 28     48.35      47.78    +143.52     0.70 x   1.26       0.08           no
+ 29     56.06      52.09    +179.48     2.25 x   1.54       0.18           no
+ 30     50.92      47.90    -169.48     1.05 x   1.63       0.12           no
+ 31     52.76      49.49    +168.40     0.96 x   1.54       0.11           no
+ 32     52.31      48.05    -175.56     0.68 x   4.52       0.08           no
+ 33     44.76      48.10    +171.19     0.65 x   2.04       0.08           no
+ 34     47.34      47.70    +167.72     0.66 x   1.70       0.08           no
+ 35     49.52      47.93    -167.78     0.75 x   1.49       0.09           no
+ 36     56.46      47.71    +172.35     0.41 x   4.23       0.05           no
+ 37     47.33      48.12    -159.92     0.78 x   1.03       0.09           no
+ 38     55.25      49.75    +169.26     0.44 x   1.11       0.05           no
+ 39     54.67      46.60    -136.34     0.05 x   0.57       0.01           no
+ 40     48.69      64.47    +170.10     0.35 x   1.03       0.04           no
+ 41     64.07      50.72    -100.30     1.73 x   0.56       0.06           no
+ 42     51.97      45.53    +132.70     0.20 x   0.17       0.02           no
+ 43     72.14      47.98     -88.03     1.02 x   0.73       0.08           no
+ 44     44.12      56.95    -152.25     0.16 x   0.39       0.02           no
+ 45     52.77      47.71    -165.42     0.12 x   0.83       0.01           no
+ 46     70.03      47.69     -90.88     1.79 x   0.58       0.07           no
+ 47     59.38      48.58    +177.80     0.26 x   2.64       0.03           no
+ 48     52.71      47.89     -99.00     0.48 x   0.09       0.01           no
+ 49     49.99      47.79    +100.49     1.76 x   0.32       0.04           no
+ 50     85.08      47.14    +107.81     0.97 x   0.29       0.03           no
+ 51     84.00      48.71    +157.17     0.54 x   0.54       0.06           no
+ 52     67.62      53.10    -116.90     0.13 x   0.08       0.01           no
+ 53     74.33      50.99    -102.84     0.61 x   0.18       0.02           no
+ 54     61.57      47.70     +92.05     0.49 x   0.08       0.01           no
+ 55     49.26      58.17     +30.42     0.07 x   0.17       0.01           no
+ 56     47.82      62.39    +178.54     0.09 x   0.64       0.01           no
+ 57     85.10      49.69    +106.72     0.39 x   0.49       0.04           no
+ 58     75.69      47.39     -85.09     0.43 x   0.18       0.02           no
+ 59     76.71      50.97    -140.92     0.13 x   0.18       0.02           no
+ 60     52.26      48.46    +176.90     0.09 x   0.21       0.01           no
+ 61     47.95      46.05    -173.86     0.07 x   0.16       0.01           no
+ 62     78.52      49.96    -159.28     0.08 x   0.13       0.01           no
+ 63     67.66      48.77    +178.62     0.25 x   0.46       0.03           no
+ 64     73.38      47.66    -146.43     0.14 x   0.09       0.01           no
+ 65     73.51      47.75    +111.08     0.32 x   0.25       0.03           no
+ 66     88.05      48.19    -144.28     0.24 x   0.28       0.03           no
+ 67     54.83      68.57    +147.19     0.20 x   0.35       0.02           no
+ 68     53.64      62.09    -145.50     0.05 x   0.17       0.01           no
+ 69     59.64      47.01    +124.20     0.07 x   0.06       0.01           no
+ 70     66.04      51.62    -177.78     0.16 x   0.40       0.02           no
+ 71     85.67      48.60    -138.99     0.18 x   0.18       0.02           no
+ 72     68.53      48.72    -165.27     0.07 x   0.15       0.01           no
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 54.4% of the square (570775 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 1.287  (a mirrored pair would span ~2.6)
+  island  0  a pose hoodie_Material_0  max mesh-X span under one texel:   0.146
+  island  1  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  2  a pose hoodie_Material_0  max mesh-X span under one texel:   0.628
+  island  3  a pose hoodie_Material_0  max mesh-X span under one texel:   0.676
+  island  4  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  5  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  6  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  7  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  8  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island  9  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 10  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 11  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 12  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 13  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 14  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 15  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 16  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 17  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 18  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 19  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 20  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 21  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 22  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 23  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 24  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 25  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 26  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 27  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 28  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 29  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 30  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 31  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 32  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 33  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 34  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 35  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 36  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 37  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 38  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 39  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 40  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 41  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 42  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 43  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 44  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 45  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 46  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 47  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 48  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 49  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 50  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 51  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 52  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 53  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 54  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 55  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 56  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 57  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 58  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 59  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 60  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 61  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 62  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 63  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 64  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 65  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 66  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 67  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 68  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 69  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 70  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 71  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+  island 72  a pose hoodie_Material_0  max mesh-X span under one texel:   0.000
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+VERDICT: NO OVERLAP. No texel is claimed by two islands.

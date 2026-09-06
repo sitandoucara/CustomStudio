@@ -1,0 +1,80 @@
+====================================================================================================
+ATLAS SURVEY — cap   7 mesh(es), 7655 verts, 14690 tris
+bbox (-10.468, 168.029, -10.927) .. (10.449, 183.23, 21.378)   span 20.917 x 15.201 x 32.305   normalised on x -> 26.0 cm (1.2430 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  Brim2_Mat_0                3664  0.113-0.475  0.288-0.527  ( 0.000, 0.991, 0.137)   5.97%  top / crown cap
+  1  Brim_under_Baseball_Cap_   1900  0.029-0.357  0.532-0.779  ( 0.001,-0.992,-0.129)   5.40%  underside
+  2  eyelets2_Baseball_Cap_0    1296  0.102-0.131  0.196-0.203  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.12)
+  3  eyelets2_Baseball_Cap_0    1296  0.101-0.132  0.233-0.239  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.12)
+  4  eyelets2_Baseball_Cap_0    1296  0.101-0.132  0.165-0.171  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.34)
+  5  eyelets2_Baseball_Cap_0    1296  0.028-0.034  0.176-0.205  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.55)
+  6  eyelets2_Baseball_Cap_0    1296  0.053-0.059  0.240-0.270  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.55)
+  7  eyelets2_Baseball_Cap_0    1296  0.069-0.076  0.243-0.274  ( 0.000, 0.000, 0.000)   0.05%  left, high (z0.33)
+  8  button1_Baseball_Cap_0      528  0.058-0.072  0.159-0.223  ( 0.000, 0.000, 0.000)   0.22%  left, high (z0.30)
+  9  Cap2_Mat_0                  192  0.164-0.787  0.040-0.267  (-0.010, 0.454, 0.891)  11.27%  front, mid (z0.56)
+ 10  Cap2_Mat_0                  138  0.478-0.746  0.498-0.780  ( 0.011, 0.994,-0.110)   5.77%  top / crown cap
+ 11  Cap2_Mat_0                  112  0.782-0.977  0.075-0.428  ( 0.665, 0.143,-0.733)   5.61%  rear, mid (z0.13)
+ 12  Cap2_Mat_0                   80  0.082-0.343  0.776-0.976  (-0.810, 0.151,-0.567)   4.32%  rear, mid (z0.16)
+ 13  Cap_Band_Baseball_Cap_0      70  0.429-0.796  0.789-0.847  ( 0.803,-0.114,-0.585)   1.88%  rear, low (z0.55)
+ 14  Cap_Band_Baseball_Cap_0      70  0.910-0.959  0.600-0.959  (-0.449,-0.071, 0.891)   1.39%  front, low (z0.09)
+ 15  Cap_Band_Baseball_Cap_0      70  0.829-0.887  0.600-0.961  (-0.791,-0.113,-0.601)   1.81%  rear, low (z0.56)
+ 16  Cap2_Mat_0                   48  0.391-0.825  0.438-0.789  ( 0.009, 0.998,-0.056)   2.85%  top / crown cap
+ 17  Cap_Band_Baseball_Cap_0      30  0.811-0.970  0.482-0.528  ( 0.820,-0.063, 0.568)   0.66%  front, low (z0.15)
+ 18  Label_Baseball_Cap_0          6  0.478-0.623  0.872-0.972  ( 0.128,-0.054, 0.990)   1.44%  front, low (z0.01)
+ 19  Label_Baseball_Cap_0          6  0.623-0.768  0.870-0.971  (-0.205,-0.057, 0.977)   1.43%  front, low (z0.02)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     70.88      68.70      -0.41    17.72 x   8.60       1.34           YES
+  1     69.98      70.24    +179.80    16.98 x   8.55       1.34           YES
+  2  (degenerate)
+  3  (degenerate)
+  4  (degenerate)
+  5  (degenerate)
+  6  (degenerate)
+  7  (degenerate)
+  8  (degenerate)
+  9     69.38      71.42      -2.67    23.07 x  10.56       1.65           YES
+ 10     71.72      71.59    -145.44    12.66 x  13.17       1.98           YES
+ 11     72.17      68.16     -90.32    18.32 x  10.37       1.62           YES
+ 12     69.91      72.11      +2.23    14.54 x  10.95       1.71           YES
+ 13     69.84      67.48    +176.93    21.68 x   2.15       0.34           no
+ 14     67.61      67.80     +87.87    21.01 x   2.04       0.32           no
+ 15     77.05      63.92     +93.98    18.84 x   2.28       0.36           no
+ 16     60.78      66.29    +155.27     1.31 x  10.53       0.20           no
+ 17     69.56      67.35    +179.54    10.55 x   2.57       0.40           YES
+ 18     25.08      25.07      -0.29     3.63 x   2.48       0.39           no
+ 19     25.08      25.08      -0.99     3.58 x   2.47       0.39           no
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 49.9% of the square (523525 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 10.468  (a mirrored pair would span ~20.9)
+  island  0  Brim2_Mat_0               max mesh-X span under one texel:   0.000
+  island  1  Brim_under_Baseball_Cap_  max mesh-X span under one texel:   0.000
+  island  2  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.445
+  island  3  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.419
+  island  4  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.755
+  island  5  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.393
+  island  6  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.528
+  island  7  eyelets2_Baseball_Cap_0   max mesh-X span under one texel:   0.766
+  island  8  button1_Baseball_Cap_0    max mesh-X span under one texel:   0.280
+  island  9  Cap2_Mat_0                max mesh-X span under one texel:   0.000
+  island 10  Cap2_Mat_0                max mesh-X span under one texel:   0.000
+  island 11  Cap2_Mat_0                max mesh-X span under one texel:   0.000
+  island 12  Cap2_Mat_0                max mesh-X span under one texel:   0.000
+  island 13  Cap_Band_Baseball_Cap_0   max mesh-X span under one texel:   0.000
+  island 14  Cap_Band_Baseball_Cap_0   max mesh-X span under one texel:   0.907
+  island 15  Cap_Band_Baseball_Cap_0   max mesh-X span under one texel:   0.000
+  island 16  Cap2_Mat_0                max mesh-X span under one texel:   0.000
+  island 17  Cap_Band_Baseball_Cap_0   max mesh-X span under one texel:   0.772
+  island 18  Label_Baseball_Cap_0      max mesh-X span under one texel:   0.000
+  island 19  Label_Baseball_Cap_0      max mesh-X span under one texel:   0.000
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+VERDICT: NO OVERLAP. No texel is claimed by two islands.

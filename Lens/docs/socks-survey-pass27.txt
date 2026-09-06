@@ -1,0 +1,57 @@
+welded sock-left-b_medias_0.mesh: 22850 -> 6086 vertices
+welded sock-right-b_medias.001_0.mesh: 22850 -> 6085 vertices
+====================================================================================================
+ATLAS SURVEY — socks   2 mesh(es), 12171 verts, 22816 tris
+bbox (-0.075, 0.019, -0.092) .. (0.191, 0.237, 0.186)   span 0.266 x 0.218 x 0.278   normalised on x -> 21.0 cm (78.9420 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  sock-right-b_medias.001_   4294  0.450-0.955  0.162-0.526  ( 0.053,-0.708, 0.705)  12.80%  front, low (z0.52)
+  1  sock-left-b_medias_0       4293  0.341-0.832  0.173-0.527  (-0.060,-0.705, 0.706)  12.07%  front, low (z0.52)
+  2  sock-left-b_medias_0       3139  0.560-0.950  0.553-0.748  ( 0.082,-0.964,-0.254)   7.15%  underside
+  3  sock-right-b_medias.001_   3138  0.061-0.447  0.554-0.748  (-0.019,-0.959,-0.282)   7.14%  underside
+  4  sock-left-b_medias_0       1928  0.120-0.375  0.032-0.230  (-0.160,-0.505,-0.848)   3.67%  rear, low (z0.14)
+  5  sock-right-b_medias.001_   1928  0.224-0.486  0.040-0.244  ( 0.160,-0.504,-0.849)   3.89%  rear, low (z0.14)
+  6  sock-left-b_medias_0       1528  0.145-0.367  0.307-0.456  ( 0.292,-0.564, 0.773)   2.58%  front, low (z0.89)
+  7  sock-right-b_medias.001_   1528  0.024-0.252  0.214-0.367  (-0.292,-0.564, 0.773)   2.73%  front, low (z0.89)
+  8  sock-left-b_medias_0        520  0.427-0.445  0.531-0.978  ( 0.001, 1.000,-0.001)   0.79%  top / crown cap
+  9  sock-right-b_medias.001_    520  0.746-0.764  0.529-0.990  ( 0.001, 1.000,-0.001)   0.83%  top / crown cap
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     46.91      28.40    -170.73     4.93 x  10.11       1.10           YES
+  1     48.28      29.19    +170.40     4.71 x  10.41       1.05           YES
+  2     47.25      26.21     +11.02     4.83 x   3.16       0.70           YES
+  3     58.95      27.55    +174.62     4.26 x   3.40       0.76           YES
+  4     51.67      48.94    -154.53     4.50 x   4.58       1.00           YES
+  5     50.20      47.56    +154.51     4.49 x   4.58       1.00           YES
+  6     45.66      13.65      -1.82     5.86 x   2.09       0.46           YES
+  7     45.15      13.99      -0.64     5.86 x   2.09       0.46           YES
+  8      9.79      47.65    +177.55     0.17 x   1.92       0.04           no
+  9     16.23      47.42     -81.43     1.64 x   0.20       0.04           no
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 43.0% of the square (451020 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 0.191  (a mirrored pair would span ~0.4)
+  island  0  sock-right-b_medias.001_  max mesh-X span under one texel:   0.248  <-- MIRRORED
+  island  1  sock-left-b_medias_0      max mesh-X span under one texel:   0.248  <-- MIRRORED
+  island  2  sock-left-b_medias_0      max mesh-X span under one texel:   0.172
+  island  3  sock-right-b_medias.001_  max mesh-X span under one texel:   0.172
+  island  4  sock-left-b_medias_0      max mesh-X span under one texel:   0.193  <-- MIRRORED
+  island  5  sock-right-b_medias.001_  max mesh-X span under one texel:   0.193  <-- MIRRORED
+  island  6  sock-left-b_medias_0      max mesh-X span under one texel:   0.121
+  island  7  sock-right-b_medias.001_  max mesh-X span under one texel:   0.121
+  island  8  sock-left-b_medias_0      max mesh-X span under one texel:   0.172
+  island  9  sock-right-b_medias.001_  max mesh-X span under one texel:   0.172
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+  islands [0, 1] share 77912 texels (7.430% of the atlas)
+  islands [4, 5] share 22019 texels (2.100% of the atlas)
+  islands [6, 7] share 4083 texels (0.389% of the atlas)
+  islands [2, 9] share 3632 texels (0.346% of the atlas)
+  islands [3, 8] share 3020 texels (0.288% of the atlas)
+  islands [1, 5] share 1085 texels (0.103% of the atlas)

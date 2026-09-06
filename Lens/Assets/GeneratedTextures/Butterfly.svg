@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" width="480" height="400">
+  <!-- Blue butterfly, flat fill with a hairline outline, drawn tight to its bounds so the
+       PNG needs no trimming: the wings reach x 6..474, the antennae y 6, the hindwings y 394. -->
+  <g stroke="#1d2a5a" stroke-width="5" stroke-linejoin="round">
+    <!-- forewings -->
+    <path d="M232 180 C 200 90, 110 20, 40 40 C 6 52, 8 120, 38 170 C 70 222, 150 236, 232 200 Z" fill="#3b8cf0"/>
+    <path d="M248 180 C 280 90, 370 20, 440 40 C 474 52, 472 120, 442 170 C 410 222, 330 236, 248 200 Z" fill="#3b8cf0"/>
+    <!-- hindwings -->
+    <path d="M232 214 C 170 210, 90 240, 66 300 C 48 352, 90 394, 150 384 C 206 374, 236 300, 232 214 Z" fill="#5fb0ff"/>
+    <path d="M248 214 C 310 210, 390 240, 414 300 C 432 352, 390 394, 330 384 C 274 374, 244 300, 248 214 Z" fill="#5fb0ff"/>
+    <!-- wing spots -->
+    <ellipse cx="120" cy="120" rx="30" ry="22" fill="#a9d4ff" stroke="none"/>
+    <ellipse cx="360" cy="120" rx="30" ry="22" fill="#a9d4ff" stroke="none"/>
+    <ellipse cx="150" cy="300" rx="20" ry="15" fill="#d6ecff" stroke="none"/>
+    <ellipse cx="330" cy="300" rx="20" ry="15" fill="#d6ecff" stroke="none"/>
+    <!-- body -->
+    <ellipse cx="240" cy="220" rx="18" ry="90" fill="#1d2a5a"/>
+    <circle cx="240" cy="128" r="22" fill="#1d2a5a"/>
+    <!-- antennae -->
+    <path d="M232 112 C 210 70, 180 30, 150 8" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <path d="M248 112 C 270 70, 300 30, 330 8" fill="none" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="150" cy="8" r="6" fill="#1d2a5a" stroke="none"/>
+    <circle cx="330" cy="8" r="6" fill="#1d2a5a" stroke="none"/>
+  </g>
+</svg>

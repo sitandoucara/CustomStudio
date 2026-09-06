@@ -1,0 +1,68 @@
+====================================================================================================
+ATLAS SURVEY — shirt   1 mesh(es), 1634 verts, 2640 tris
+bbox (-3.97, 10.938, -1.593) .. (3.97, 19.941, 2.582)   span 7.940 x 9.002 x 4.176   normalised on y -> 30.0 cm (3.3324 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  tshirt_tshirt_0            1036  0.002-0.590  0.324-0.993  ( 0.000, 0.284, 0.959)  27.12%  front, mid (z0.73)
+  1  tshirt_tshirt_0             688  0.573-0.967  0.345-0.963  ( 0.000, 0.184,-0.983)  19.56%  rear, mid (z0.17)
+  2  tshirt_tshirt_0             210  0.710-0.939  0.160-0.356  ( 0.055, 0.092,-0.994)   3.33%  rear, high (z0.22)
+  3  tshirt_tshirt_0             210  0.357-0.548  0.105-0.385  (-0.055, 0.092,-0.994)   3.33%  rear, high (z0.22)
+  4  tshirt_tshirt_0             140  0.193-0.350  0.135-0.325  ( 0.434, 0.212, 0.876)   2.26%  front, high (z0.50)
+  5  tshirt_tshirt_0             140  0.745-0.925  0.028-0.215  (-0.434, 0.212, 0.876)   2.26%  front, high (z0.50)
+  6  tshirt_tshirt_0              44  0.961-0.997  0.371-0.998  (-0.000, 0.339, 0.941)   0.79%  front, low (z0.73)
+  7  tshirt_tshirt_0              30  0.565-0.577  0.176-0.393  ( 0.280,-0.141,-0.950)   0.13%  rear, mid (z0.22)
+  8  tshirt_tshirt_0              30  0.956-0.969  0.154-0.371  (-0.280,-0.141,-0.950)   0.13%  rear, mid (z0.22)
+  9  tshirt_tshirt_0              20  0.913-0.942  0.080-0.230  (-0.382, 0.004, 0.924)   0.09%  front, mid (z0.47)
+ 10  tshirt_tshirt_0              20  0.751-0.899  0.007-0.050  ( 0.382, 0.004, 0.924)   0.09%  front, mid (z0.47)
+ 11  tshirt_tshirt_0              18  0.978-0.998  0.365-0.528  ( 0.232, 0.646, 0.727)   0.10%  front, high (z0.55)
+ 12  tshirt_tshirt_0              16  0.002-0.015  0.277-0.393  (-0.000, 0.600,-0.800)   0.06%  rear, high (z0.30)
+ 13  tshirt_tshirt_0              14  0.138-0.164  0.155-0.352  (-0.426, 0.222,-0.877)   0.27%  rear, low (z0.09)
+ 14  tshirt_tshirt_0              14  0.161-0.189  0.150-0.348  ( 0.426, 0.222,-0.877)   0.27%  rear, low (z0.09)
+ 15  tshirt_tshirt_0              10  0.057-0.068  0.303-0.390  (-0.488, 0.724, 0.488)   0.05%  left, high (z0.48)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     46.61      48.71    -179.36    11.38 x  24.87       1.32           YES
+  1     45.25      45.88    +179.07    11.21 x  24.91       1.30           YES
+  2     46.46      46.87     -30.55     2.77 x   4.75       0.32           no
+  3     45.83      47.48    +146.73     2.82 x   4.65       0.33           no
+  4     43.15      47.43     +31.42     2.76 x   4.39       0.32           no
+  5     43.07      47.24    +137.90     2.54 x   4.79       0.30           no
+  6     43.25      46.41     -90.00     3.50 x   0.41       0.05           no
+  7     46.21      16.84     -56.07     0.51 x   0.17       0.02           no
+  8     48.00      13.31     +60.89     0.51 x   0.17       0.02           no
+  9     48.02      24.94    -128.85     0.47 x   0.15       0.02           no
+ 10     30.64      41.95    +160.06     0.47 x   0.15       0.02           no
+ 11     48.73      49.87     -80.35     1.41 x   0.24       0.03           no
+ 12     47.07      47.79     -90.00     1.70 x   0.19       0.02           no
+ 13     46.88      44.78     -79.07     3.69 x   0.54       0.06           no
+ 14     46.64      44.73     +89.85     3.69 x   0.54       0.06           no
+ 15     46.69      46.76     +60.02     0.41 x   0.14       0.02           no
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 59.8% of the square (627460 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 3.970  (a mirrored pair would span ~7.9)
+  island  0  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  1  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  2  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  3  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  4  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  5  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  6  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  7  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  8  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island  9  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 10  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 11  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 12  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 13  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 14  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+  island 15  tshirt_tshirt_0           max mesh-X span under one texel:   0.000
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+VERDICT: NO OVERLAP. No texel is claimed by two islands.

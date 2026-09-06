@@ -1,0 +1,155 @@
+- !<ObjectPrefab/7b96c105-eabd-440b-abfa-578c78797e06>
+  PackagePath: ""
+  objects:
+    - !<own> 3c84213a-e5d3-4810-81a1-e90ce313cd2e
+  LazyLoading: false
+  RetainAssets: true
+  PreviewEnvironment: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2d41cf07-b0c0-4343-b42c-7321c24cd96e>
+  PrefabRemaps:
+    []
+  Name: Scenes
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a584b2c0-f950-4ee1-9455-ed28c355b345
+  Components:
+    []
+- !<SceneObject/345e78f7-0ceb-4a34-97eb-bc1714f55feb>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_model
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: -90.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 47279506-b1cf-4d84-9842-44d322319fb8
+  Components:
+    []
+- !<SceneObject/3c84213a-e5d3-4810-81a1-e90ce313cd2e>
+  PrefabRemaps:
+    - 2d41cf07-b0c0-4343-b42c-7321c24cd96e: 2d41cf07-b0c0-4343-4bd3-8cde3db32691
+    - 345e78f7-0ceb-4a34-97eb-bc1714f55feb: 345e78f7-0ceb-4a34-6814-43e8eb0aa014
+    - 3c84213a-e5d3-4810-81a1-e90ce313cd2e: 3c84213a-e5d3-4810-7e5e-16f31cec32d1
+    - 40c47d22-d273-4f1a-a561-e730a2636238: 40c47d22-d273-4f1a-5a9e-18cf5d9c9dc7
+    - 47279506-b1cf-4d84-9842-44d322319fb8: 47279506-b1cf-4d84-67bd-bb2cddce6047
+    - a584b2c0-f950-4ee1-9455-ed28c355b345: a584b2c0-f950-4ee1-6baa-12d73caa4cba
+    - c42c330b-bf14-4cf9-a8ee-15a3d6f03f59: c42c330b-bf14-4cf9-5711-ea5c290fc0a6
+    - c6806f4c-2fde-4eaa-8eb2-8c9f100cdb1f: c6806f4c-2fde-4eaa-714d-7360eff324e0
+    - d9dbb187-c290-4132-a483-60077512f690: d9dbb187-c290-4132-5b7c-9ff88aed096f
+  Name: black_t-shirt
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d41cf07-b0c0-4343-b42c-7321c24cd96e
+  Components:
+    []
+- !<SceneObject/40c47d22-d273-4f1a-a561-e730a2636238>
+  PrefabRemaps:
+    []
+  Name: tshirt_tshirt_0
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6806f4c-2fde-4eaa-8eb2-8c9f100cdb1f
+- !<SceneObject/47279506-b1cf-4d84-9842-44d322319fb8>
+  PrefabRemaps:
+    []
+  Name: 1a25da145c2e41a3b5a930b9a0babec2.fbx
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 90.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c42c330b-bf14-4cf9-a8ee-15a3d6f03f59
+  Components:
+    []
+- !<SceneObject/a584b2c0-f950-4ee1-9455-ed28c355b345>
+  PrefabRemaps:
+    []
+  Name: Sketchfab_Scene
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 345e78f7-0ceb-4a34-97eb-bc1714f55feb
+  Components:
+    []
+- !<SceneObject/c42c330b-bf14-4cf9-a8ee-15a3d6f03f59>
+  PrefabRemaps:
+    []
+  Name: RootNode
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9dbb187-c290-4132-a483-60077512f690
+  Components:
+    []
+- !<RenderMeshVisual/c6806f4c-2fde-4eaa-8eb2-8c9f100cdb1f>
+  PrefabRemaps:
+    []
+  Name: tshirt_tshirt_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 573fa0d1-b497-430e-97f2-8b7df95c88be
+  Mesh: !<reference> e96a2f23-9b9a-42af-8081-fa8e1e8bb3de
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d9dbb187-c290-4132-a483-60077512f690>
+  PrefabRemaps:
+    []
+  Name: tshirt
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 40c47d22-d273-4f1a-a561-e730a2636238
+  Components:
+    []

@@ -1,0 +1,71 @@
+welded sock-left-b_medias_0.mesh: 22816 -> 6010 vertices
+welded sock-right-b_medias.001_0.mesh: 22816 -> 6010 vertices
+====================================================================================================
+ATLAS SURVEY — socks   2 mesh(es), 12020 verts, 22816 tris
+bbox (-0.075, 0.019, -0.092) .. (0.191, 0.237, 0.186)   span 0.266 x 0.218 x 0.278   normalised on y -> 30.0 cm (137.6697 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  sock-left-b_medias_0       6080  0.341-0.832  0.026-0.527  (-0.095,-0.552, 0.829)  19.84%  front, mid (z0.41)
+  1  sock-right-b_medias.001_   6080  0.450-0.955  0.010-0.526  ( 0.095,-0.555, 0.827)  21.02%  front, mid (z0.41)
+  2  sock-left-b_medias_0       1928  0.120-0.375  0.032-0.230  (-0.160,-0.505,-0.848)   3.67%  rear, low (z0.14)
+  3  sock-right-b_medias.001_   1928  0.224-0.486  0.040-0.244  ( 0.160,-0.504,-0.849)   3.89%  rear, low (z0.14)
+  4  sock-left-b_medias_0       1872  0.427-0.511  0.531-0.978  ( 0.604, 0.727,-0.328)   3.77%  right, high (z0.19)
+  5  sock-right-b_medias.001_   1872  0.678-0.764  0.529-0.990  (-0.578, 0.754,-0.314)   3.99%  left, high (z0.19)
+  6  sock-left-b_medias_0       1528  0.145-0.367  0.307-0.456  ( 0.292,-0.564, 0.773)   2.58%  front, low (z0.89)
+  7  sock-right-b_medias.001_   1528  0.024-0.252  0.214-0.367  (-0.292,-0.564, 0.773)   2.73%  front, low (z0.89)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     78.87      51.38    +170.49     9.17 x  19.74       1.83           YES
+  1     76.66      50.04    -170.41     9.22 x  19.65       1.84           YES
+  2     90.10      85.36    -154.53     7.85 x   7.99       1.57           YES
+  3     87.55      82.94    +154.51     7.82 x   7.99       1.56           YES
+  4     45.29      84.72     -82.84     7.76 x   1.96       0.39           no
+  5     41.91      82.31     +82.53     7.45 x   1.92       0.38           no
+  6     79.64      23.80      -1.82    10.22 x   3.64       0.73           YES
+  7     78.75      24.39      -0.64    10.22 x   3.64       0.73           YES
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 43.7% of the square (457818 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 0.191  (a mirrored pair would span ~0.4)
+  island  0  sock-left-b_medias_0      max mesh-X span under one texel:   0.248  <-- MIRRORED
+  island  1  sock-right-b_medias.001_  max mesh-X span under one texel:   0.248  <-- MIRRORED
+  island  2  sock-left-b_medias_0      max mesh-X span under one texel:   0.193  <-- MIRRORED
+  island  3  sock-right-b_medias.001_  max mesh-X span under one texel:   0.193  <-- MIRRORED
+  island  4  sock-left-b_medias_0      max mesh-X span under one texel:   0.000
+  island  5  sock-right-b_medias.001_  max mesh-X span under one texel:   0.000
+  island  6  sock-left-b_medias_0      max mesh-X span under one texel:   0.121
+  island  7  sock-right-b_medias.001_  max mesh-X span under one texel:   0.121
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+  islands [0, 1] share 153480 texels (14.637% of the atlas)
+  islands [2, 3] share 22019 texels (2.100% of the atlas)
+  islands [0, 3] share 7367 texels (0.703% of the atlas)
+  islands [6, 7] share 4083 texels (0.389% of the atlas)
+
+--- PASS 23 ADDENDUM: THE PAIR, AND WHAT WAS BUILT ---------------------------------------------------
+THE SHARED-CHART QUESTION. The two socks are SEPARATE meshes (sock-left-b, sock-right-b; 11,408
+triangles each, welded from 22,816 to 6,010 vertices apiece) on SEPARATE materials (medias,
+medias.001), but their UV charts are one layout shifted 0.11 in u. Rasterised at 1024, 188,278
+texels carry triangles from BOTH socks: 59.8% of the left sock's texels and 56.5% of the right's,
+18.0% of the atlas. Every cross-island overlap the survey reports is left-versus-right; within one
+sock there is none. So one bake sampled by both materials would print every sticker on both socks
+(shifted 7 cm); a bake per material prints on one.
+
+DISTORTION. Per-triangle cm/u on the body island: p10 60.5, p50 65.4, p90 73.1; cm/v 49.9 / 61.6
+/ 71.2. Within each generated region the unwrap's rotation stays within 7-34 degrees (p10-p90),
+against 2-10 on the cap. The centroid triangle of the body island reads 9.5 cm/v against an island
+mean of 61 — which is why this garment uses an area-weighted mean Jacobian (survey.py jacobian=
+"mean"), splits along the axis its normals actually sweep across (splitAxis="sweep", 25 degree
+regions) and searches a slice for its best square centre when the centroid falls in the ankle notch.
+
+VERDICT: PASSED as ONE garment with TWO bake targets. 42 regions (21 per sock), shin halves 9.0 x
+23.2 cm at max scale 2.0, sticker side 4.5 cm. The chart's seam runs down the front of each shin,
+so a sticker lives on the left or the right half of a shin, never across its centre line.
+Textures: two 1024 albedos (flat grey with a brand doodle, unused: fabricFromAlbedo false) shrunk
+to 64 x 64.

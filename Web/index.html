@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Custom Studio — Companion library</title>
+
+    <link rel="icon" href="./assets/favicon-32.png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="sheet">
+      <div class="top">
+        <div class="brand">
+          <span class="brand-mark">
+            <img src="./assets/logo.png" alt="" />
+          </span>
+          <div>
+            <h2>Custom Studio</h2>
+            <p>Companion library for Snap Spectacles</p>
+          </div>
+        </div>
+        <button class="ghost-btn" id="refresh">
+          <svg viewBox="0 0 24 24">
+            <path d="M20 11a8 8 0 10-2.3 5.7M20 5v6h-6" />
+          </svg>
+          Refresh!
+        </button>
+      </div>
+
+      <h1>Your library</h1>
+      <p class="lede">
+        Upload your own stickers, and find every creation you've saved from the
+        Lens.
+      </p>
+
+      <div class="dropwrap">
+        <div
+          class="drop"
+          id="drop"
+          tabindex="0"
+          role="button"
+          aria-label="Choose artwork, or drop a file here"
+        >
+          <img id="preview" alt="Your artwork" />
+          <div class="drop-icon">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 16V4m0 0L7.5 8.5M12 4l4.5 4.5M4 16v2.5A1.5 1.5 0 005.5 20h13a1.5 1.5 0 001.5-1.5V16"
+              />
+            </svg>
+          </div>
+          <strong id="dropTitle">Drop your artwork here</strong>
+          <span id="dropSub">or click to choose a file</span>
+          <span class="fine"
+            >PNG or JPEG, up to 5 MB<br />(transparent background
+            recommended)</span
+          >
+        </div>
+      </div>
+
+      <div class="actions" id="actions" hidden>
+        <button class="btn btn-primary" id="save">Save to library</button>
+        <button class="btn btn-quiet" id="clear">Choose another</button>
+      </div>
+
+      <p class="msg" id="msg" role="status" aria-live="polite"></p>
+
+      <div class="specs">
+        <div class="spec">
+          <span class="spec-i"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M12 3l1.6 4.7L18 9l-3.6 2.9L15.4 17 12 14.6 8.6 17l1-5.1L6 9l4.4-1.3L12 3z"
+              /></svg
+          ></span>
+          <div>
+            <b>PNG with transparency</b
+            ><small>Best quality for AR stickers</small>
+          </div>
+        </div>
+        <div class="spec">
+          <span class="spec-i"
+            ><svg viewBox="0 0 24 24">
+              <path
+                d="M3 7.5A1.5 1.5 0 014.5 6h4l2 2.5h9A1.5 1.5 0 0121 10v7.5A1.5 1.5 0 0119.5 19h-15A1.5 1.5 0 013 17.5v-10z"
+              /></svg
+          ></span>
+          <div>
+            <b><span id="specStickers">—</span> stickers saved</b
+            ><small>Available instantly in Lens</small>
+          </div>
+        </div>
+        <div class="spec">
+          <span class="spec-i"
+            ><svg viewBox="0 0 24 24">
+              <path d="M4 7h3l1.4-2h7.2L17 7h3v12H4V7z" />
+              <circle cx="12" cy="13" r="3.2" /></svg
+          ></span>
+          <div>
+            <b><span id="specPhotos">—</span> photos captured</b
+            ><small>Taken in the Lens gallery</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="tabwrap">
+        <div class="tabs" role="tablist">
+          <button class="tab" id="tabStickers" role="tab" aria-selected="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="3.5" y="3.5" width="17" height="17" rx="3" />
+              <circle cx="9" cy="9.5" r="1.6" />
+              <path d="M4 16l4.5-4.5L14 17" />
+            </svg>
+            Stickers <span class="count" id="cntStickers">0</span>
+          </button>
+          <button class="tab" id="tabGallery" role="tab" aria-selected="false">
+            <svg viewBox="0 0 24 24">
+              <rect x="3.5" y="5.5" width="17" height="14" rx="3" />
+              <circle cx="12" cy="12.5" r="3.4" />
+            </svg>
+            Gallery <span class="count" id="cntGallery">0</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid" id="grid"></div>
+
+      <footer>
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 20s-7-4.4-7-9.1A4 4 0 0112 8.6 4 4 0 0119 10.9C19 15.6 12 20 12 20z"
+          />
+        </svg>
+        Create, customize, wear it in the real world
+      </footer>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+====================================================================================================
+ATLAS SURVEY — joggers   2 mesh(es), 124838 verts, 232680 tris
+bbox (-0.23, 0.943, 0.008) .. (0.263, 1.954, 0.277)   span 0.492 x 1.011 x 0.269   normalised on y -> 31.0 cm (30.6630 cm per mesh unit)
+====================================================================================================
+
+--- ISLANDS ---------------------------------------------------------------------------------------
+  #  mesh                       tris   u range        v range        avg normal              atlas%  role
+  0  Sweatpants Mockup2       219986  0.039-0.862  0.021-0.983  (-0.590, 0.069,-0.804)  306.71%  rear, mid (z0.56)
+  1  Sweatpants Mockup2         4650  0.087-0.862  0.021-0.077  (-0.002,-0.990,-0.143)   4.35%  underside
+  2  Sweatpants Mockup2         1248  0.474-0.862  0.021-0.021  ( 0.126,-0.991,-0.054)   0.00%  underside
+  3  Sweatpants Mockup2         1212  0.474-0.862  0.077-0.077  (-0.068, 0.995,-0.076)   0.00%  top / crown cap
+  4  Sweatpants Mockup2         1212  0.087-0.474  0.077-0.077  ( 0.070, 0.995,-0.072)   0.00%  top / crown cap
+  5  Sweatpants Mockup2         1140  0.087-0.442  0.021-0.021  (-0.123,-0.990,-0.066)   0.00%  underside
+  6  Sweatpants Mockup21         744  0.920-0.920  0.736-0.921  (-0.941, 0.100, 0.323)   0.00%  left, high (z0.96)
+  7  Sweatpants Mockup21         744  0.774-0.774  0.736-0.921  (-0.994,-0.098,-0.039)   0.00%  left, high (z0.97)
+  8  Sweatpants Mockup21         744  0.764-0.764  0.736-0.921  ( 0.994, 0.111, 0.022)   0.00%  right, high (z0.97)
+  9  Sweatpants Mockup2          156  0.862-0.862  0.021-0.077  (-1.000, 0.006, 0.018)   0.00%  left, high (z0.14)
+ 10  Sweatpants Mockup2          156  0.087-0.087  0.021-0.077  ( 1.000,-0.005, 0.022)   0.00%  right, high (z0.14)
+ 11  Sweatpants Mockup21         124  0.920-0.929  0.736-0.921  ( 0.351, 0.048, 0.935)   0.17%  front, high (z0.95)
+ 12  Sweatpants Mockup21         124  0.920-0.929  0.736-0.921  (-0.351,-0.047,-0.935)   0.17%  rear, high (z0.95)
+ 13  Sweatpants Mockup21         124  0.764-0.774  0.736-0.921  (-0.049, 0.125, 0.991)   0.17%  front, high (z0.98)
+ 14  Sweatpants Mockup21         124  0.764-0.774  0.736-0.921  ( 0.041,-0.122,-0.992)   0.17%  rear, high (z0.97)
+ 15  Sweatpants Mockup21          48  0.920-0.929  0.736-0.736  (-0.032,-0.996, 0.086)   0.00%  underside
+ 16  Sweatpants Mockup21          48  0.920-0.929  0.921-0.921  ( 0.518, 0.703,-0.486)   0.00%  right, high (z0.93)
+ 17  Sweatpants Mockup21          48  0.764-0.774  0.736-0.736  ( 0.008,-0.997, 0.074)   0.00%  underside
+ 18  Sweatpants Mockup21          48  0.764-0.774  0.921-0.921  (-0.115, 0.232,-0.966)   0.00%  rear, high (z0.92)
+
+--- SCALE, USABLE RECT AND MAX STICKER -------------------------------------------------------------
+  #  cm per u   cm per v   atlasRot   usable rect (cm)   max sticker scale  printable?
+  0     64.51      68.82      +2.47     3.21 x  21.21       0.64           YES
+  1     31.80       3.62      +0.78     3.30 x   0.27       0.05           no
+  2  (degenerate)
+  3  (degenerate)
+  4  (degenerate)
+  5  (degenerate)
+  6  (degenerate)
+  7  (degenerate)
+  8  (degenerate)
+  9  (degenerate)
+ 10  (degenerate)
+ 11     23.26      25.01      -2.83     0.12 x   2.09       0.02           no
+ 12     23.26      25.01    -177.19     0.13 x   1.90       0.03           no
+ 13     23.25      24.98    -179.36     0.17 x   2.43       0.03           no
+ 14     23.24      25.01      -0.78     0.17 x   2.54       0.03           no
+ 15  (degenerate)
+ 16  (degenerate)
+ 17  (degenerate)
+ 18  (degenerate)
+
+--- ATLAS RASTERISATION (1024x1024) ----------------------------------------------------
+atlas coverage: 18.3% of the square (192181 of 1048576 texels carry cloth)
+
+--- MIRRORING VERDICT ------------------------------------------------------------------------------
+half-width of the model in mesh X: 0.263  (a mirrored pair would span ~0.5)
+  island  0  Sweatpants Mockup2        max mesh-X span under one texel:   0.178
+  island  1  Sweatpants Mockup2        max mesh-X span under one texel:   0.153
+  island  2  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island  3  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island  4  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island  5  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island  6  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island  7  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island  8  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island  9  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island 10  Sweatpants Mockup2        max mesh-X span under one texel:   0.000
+  island 11  Sweatpants Mockup21       max mesh-X span under one texel:   0.001
+  island 12  Sweatpants Mockup21       max mesh-X span under one texel:   0.001
+  island 13  Sweatpants Mockup21       max mesh-X span under one texel:   0.001
+  island 14  Sweatpants Mockup21       max mesh-X span under one texel:   0.001
+  island 15  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island 16  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island 17  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+  island 18  Sweatpants Mockup21       max mesh-X span under one texel:   0.000
+VERDICT: NOT MIRRORED. No texel is covered by both a +X and a -X triangle.
+
+--- CROSS-ISLAND OVERLAP ---------------------------------------------------------------------------
+  islands [0, 1] share 46052 texels (4.392% of the atlas)
+  islands [11, 12] share 1890 texels (0.180% of the atlas)
+  islands [13, 14] share 1701 texels (0.162% of the atlas)
+survey exit 0
+
+--- PASS 22 ADDENDUM: WHY THE JOGGERS STOP HERE ---------------------------------------------------
+Source: ~/Downloads/jogging.glb (Blender "Sweatpants Mockup", 39.6 MB). Lens Studio's glTF loader
+refused the file as shipped ("Invalid image data for image[0] sweatpants_normal": an 8000 x 8000
+JPEG), so it had never reached Assets. tools/glbreduce.py rewrote it — normal maps to 1024, the
+unused "Example" albedo to 64, the mockup's two studio-light meshes dropped — and that 10.3 MB
+file imported cleanly as Assets/joggers/jogging_reduced.
+
+GEOMETRY. The pants mesh is ONE LEG under a full waistband ring. Of 169,849 triangles below
+the waist, 168,097 are left of the waist centre and NONE lie past x = +0.05 — the right leg is
+absent (the mockup's mirror was never applied on export). The cloth is double-walled: every
+face has an opposite-facing twin 0.2 mm behind it, which is why the island's summed UV area
+reads 307% of the atlas and why every texel carries both a front- and a back-facing triangle.
+232,680 triangles in all (the cap is 14,690; the hoodie that "behaved badly" was 26,628).
+
+ATLAS. Injective apart from the double wall: legs A/B in the chart are the front and back halves
+of the single leg tube, with at most one cloth sheet under a texel (2,619 of 3,072 sampled
+bins), no +X/-X mirroring, and one real cross-island overlap — the hem strip (island 1) shares
+4.4% of the atlas with the body (island 0).
+
+PRINT AREA. The leg tube is 5.8 cm wide x 6.5 cm deep at mid-thigh when the garment is fitted
+to 31 cm tall. A 5 cm sticker does not fit any panel the survey can inscribe (max scale 0.64 on
+the body island, 0.05 on the hem, nothing on the straps).
+
+VERDICT: FAILED — half a garment, an island overlap on the hem, and no primary print area that
+holds a default-size sticker. No panels generated, no pill added, nothing wired.
