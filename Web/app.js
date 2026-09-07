@@ -55,11 +55,6 @@ const encodePath = (p) => p.split("/").map(encodeURIComponent).join("/");
 const publicUrl = (bucket, path) =>
   BASE + "/storage/v1/object/public/" + bucket + "/" + encodePath(path);
 
-/*
-  Pour les photos de la galerie, on ajoute une version à l'URL.
-  Cela évite qu'un navigateur ou un CDN affiche une ancienne image
-  depuis son cache alors que le contenu a changé.
-*/
 function versionedPublicUrl(bucket, path, version) {
   const url = publicUrl(bucket, path);
 
@@ -70,18 +65,6 @@ function versionedPublicUrl(bucket, path, version) {
   return url + "?v=" + encodeURIComponent(String(version));
 }
 
-/*
-  ------------------------------------------------------------------
-  LISTING D'UN BUCKET
-  ------------------------------------------------------------------
-
-  Renvoie les objets réellement présents dans le Storage, avec leur
-  chemin complet.
-
-  L'API renvoie "name" relatif au préfixe demandé, donc on reconstruit
-  le chemin complet nous-mêmes. Les dossiers reviennent avec id === null
-  et sont écartés.
-*/
 async function listBucket(bucket, prefix) {
   const at = prefix || "";
 
@@ -93,10 +76,6 @@ async function listBucket(bucket, prefix) {
       "Content-Type": "application/json",
     },
 
-    /*
-      Évite qu'une réponse de listing précédente
-      reste utilisée par le navigateur.
-    */
     cache: "no-store",
 
     body: JSON.stringify({
@@ -405,16 +384,6 @@ async function loadPhotos() {
     return;
   }
 
-  /*
-    La galerie est alimentée par custom_photos, qui porte les
-    métadonnées (couleur, nombre de stickers, date).
-
-    Mais la table peut contenir des lignes dont le fichier a
-    disparu du Storage. On recoupe donc les deux AVANT de
-    compter et d'afficher : sinon le badge annonce le nombre
-    de lignes alors que la grille affiche le nombre de fichiers.
-  */
-
   const res = await fetch(
     BASE +
       "/rest/v1/" +
@@ -445,10 +414,6 @@ async function loadPhotos() {
 
     path: r.storage_path,
 
-    /*
-      On versionne l'URL pour réduire les problèmes
-      d'anciennes images encore présentes dans le cache.
-    */
     url: versionedPublicUrl(
       BUCKET_PHOTOS,
       r.storage_path,
@@ -467,11 +432,6 @@ async function loadPhotos() {
     return;
   }
 
-  /*
-    Les chemins peuvent vivre dans des sous-dossiers. On liste
-    chaque dossier concerné une seule fois, puis on construit
-    l'ensemble des chemins qui existent réellement.
-  */
   const folders = new Set(
     usable.map((r) => {
       const cut = r.storage_path.lastIndexOf("/");
@@ -489,12 +449,6 @@ async function loadPhotos() {
 
     photos = usable.filter((r) => onDisk.has(r.storage_path)).map(toPhoto);
   } catch (err) {
-    /*
-      Si le listing du bucket échoue, on n'a aucune raison de
-      vider la galerie. On affiche les lignes telles quelles :
-      le handler "error" de chaque image reste en place comme
-      filet de sécurité.
-    */
     console.warn("Storage cross-check skipped:", err);
 
     photos = usable.map(toPhoto);
@@ -514,9 +468,6 @@ async function refresh() {
   }
 
   try {
-    /*
-      Les deux listings sont chargés en parallèle.
-    */
     await Promise.all([loadStickers(), loadPhotos()]);
 
     say("");
@@ -533,13 +484,6 @@ async function refresh() {
 /* ------------------------------------------------------------------ */
 
 function makeTile(item) {
-  /*
-    IMPORTANT :
-    on mémorise le type de tuile maintenant.
-
-    On évite ainsi de dépendre de la variable globale "tab"
-    plus tard, notamment pendant les événements asynchrones.
-  */
   const tileType = tab;
   const isPhoto = tileType === "gallery";
 
@@ -557,17 +501,6 @@ function makeTile(item) {
   img.alt = "";
   img.loading = "lazy";
 
-  /*
-    --------------------------------------------------------
-    FILET DE SÉCURITÉ
-    --------------------------------------------------------
-
-    Les lignes fantômes sont normalement déjà écartées par le
-    recoupement fait dans loadPhotos().
-
-    Ce handler reste utile pour un fichier supprimé entre le
-    listing et l'affichage, ou si le recoupement a échoué.
-  */
   img.addEventListener(
     "error",
     () => {
@@ -582,11 +515,6 @@ function makeTile(item) {
       if (tile.isConnected) {
         tile.remove();
       }
-
-      /*
-        Si l'image supprimée était la dernière,
-        on rerender afin d'afficher le message vide.
-      */
       const remaining = isPhoto ? photos.length : stickers.length;
 
       if (remaining === 0 && tab === tileType) {
@@ -669,12 +597,6 @@ function makeTile(item) {
 
   del.addEventListener("click", (e) => {
     e.stopPropagation();
-
-    /*
-        On passe également le type de tuile à onDelete.
-        Donc même si l'utilisateur change d'onglet pendant
-        la requête, le code sait toujours ce qu'il supprime.
-      */
     onDelete(item, del, tileType);
   });
 
@@ -724,20 +646,6 @@ function disarm() {
   clearTimeout(armTimer);
 }
 
-/*
-  IMPORTANT :
-
-  "sourceTab" correspond à l'onglet depuis lequel la tuile
-  a été créée.
-
-  On ne dépend donc jamais de la variable globale "tab"
-  après un await.
-
-  C'était l'un des principaux risques de désynchronisation :
-  l'utilisateur pouvait lancer une suppression dans Gallery,
-  changer d'onglet, puis la requête revenait alors que
-  tab === "stickers".
-*/
 async function onDelete(item, btn, sourceTab) {
   if (armed !== item) {
     disarm();
@@ -764,33 +672,16 @@ async function onDelete(item, btn, sourceTab) {
   disarm();
   say("");
 
-  /*
-    On fige toutes les informations nécessaires AVANT
-    le premier await.
-  */
   const deletingFrom = sourceTab || tab;
 
   const isPhoto = deletingFrom === "gallery";
 
   const bucket = isPhoto ? BUCKET_PHOTOS : BUCKET_STICKERS;
 
-  /*
-    Copies pour restaurer l'état local si Supabase échoue.
-  */
   const previousPhotos = [...photos];
 
   const previousStickers = [...stickers];
 
-  /*
-    --------------------------------------------------------
-    SUPPRESSION OPTIMISTE
-    --------------------------------------------------------
-
-    On retire immédiatement la tuile à l'écran.
-
-    L'utilisateur ne doit pas attendre les deux requêtes
-    Supabase avant de voir l'image disparaître.
-  */
   if (isPhoto) {
     photos = photos.filter((p) => p !== item);
   } else {
@@ -799,10 +690,6 @@ async function onDelete(item, btn, sourceTab) {
 
   counts();
 
-  /*
-    On ne rerender que si l'utilisateur regarde encore
-    l'onglet concerné.
-  */
   if (tab === deletingFrom) {
     render();
   }
@@ -837,10 +724,6 @@ async function onDelete(item, btn, sourceTab) {
       ------------------------------------------------------
       2. DELETE DATABASE ROW
       ------------------------------------------------------
-
-      Seulement pour la galerie.
-
-      Les stickers n'utilisent pas custom_photos.
     */
     if (isPhoto) {
       const dbRes = await fetch(
@@ -855,14 +738,6 @@ async function onDelete(item, btn, sourceTab) {
           headers: {
             ...headers(),
 
-            /*
-                PostgREST doit nous retourner la ligne
-                réellement supprimée.
-
-                Sans ça, une RLS peut refuser le DELETE
-                tout en renvoyant une réponse qui semble
-                valide.
-              */
             Prefer: "return=representation",
           },
 
@@ -893,10 +768,6 @@ async function onDelete(item, btn, sourceTab) {
       ------------------------------------------------------
       ROLLBACK UI
       ------------------------------------------------------
-
-      La suppression locale était optimiste.
-
-      Si Supabase échoue, on restaure donc l'état précédent.
     */
     photos = previousPhotos;
 

@@ -13,9 +13,6 @@
   --danger: #f43f5e;
   --ok: #34d399;
   --r: 16px;
-
-  /* Sticker artwork: free height between these bounds, so a tall logo
-     and a wide banner each keep their own shape. */
   --art-min: 70px;
   --art-max: 170px;
 }
@@ -95,8 +92,6 @@ body {
   fill: #fff;
 }
 
-/* The logo sits inside the tile with optical margin, and keeps its
-   own aspect ratio whatever shape the file is. */
 .brand-mark img {
   display: block;
   width: 42px;
@@ -359,8 +354,6 @@ h1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  /* Tiles size to their own content instead of stretching to the
-     tallest one in the row — that is what lets a sticker keep its shape. */
   align-items: start;
 }
 @media (max-width: 760px) {
@@ -392,8 +385,6 @@ h1 {
   transform: translateY(-2px);
 }
 
-/* Sticker artwork: bounded, never fixed. The image keeps its aspect and
-   the tile grows or shrinks around it. */
 .tile .art {
   display: grid;
   place-items: center;
@@ -409,7 +400,6 @@ h1 {
   object-fit: contain;
 }
 
-/* Photos are all captured at the same size, so they share one frame. */
 .tile.photo .art {
   min-height: 0;
   aspect-ratio: 7 / 8;
@@ -425,7 +415,6 @@ h1 {
   object-fit: cover;
 }
 
-/* Caption sits under the artwork, inside the tile — never over the image. */
 .tile .caption {
   padding-top: 2px;
 }
