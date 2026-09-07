@@ -2,12 +2,6 @@
 
 > A spatial design studio for SPECS. Pick a garment — a t-shirt, a cap, a tote bag, a pair of socks — and customise it in the air in front of you: recolour it, paint on it, place stickers and typed text, scatter faceted 3D gems across it. Turn it on its turntable to work on the back. Photograph the result, and it lands in a cloud gallery you can open from any phone or laptop.
 
-<!-- DEMO VIDEO — drop the uploaded video link here -->
-
-DEMO LINK
-
-> CLAD Summer Hackathon — Week 4: _Create_
-
 ---
 
 ## About
